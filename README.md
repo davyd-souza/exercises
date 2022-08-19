@@ -38,7 +38,7 @@
 <ul>
     <li><a href="react">React</a></li>
         <ul>
-            <li><a href="react/colo-box-exercise">Color Boxes</a></li>
+            <li><a href="react/color-box-exercise">Color Boxes</a></li>
             <li><a href="react/mood-swing-exercise">Mood Swing</a></li>
         </ul>
 </ul>
@@ -46,41 +46,21 @@
 
 <h2 id="roadmap">🌟 On the roadmap</h2>
 
-<input type="checkbox" checked>
-    <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="25" height="25"/>
-    </a>
-</input>
-
-<input type="checkbox" checked>
-    <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="25" height="25"/>
-    </a>
-</input>
-
-<input type="checkbox" checked>
-    <a href="https://www.cypress.io" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="25" height="25"/>
-    </a>
-</input>
-
-<input type="checkbox" checked>
-    <a href="https://graphql.org" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="25" height="25"/>
-    </a>
-</input>
-
-<input type="checkbox" checked>
-    <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="25" height="25"/>
-    </a>
-</input>
-
-<input type="checkbox" checked>
-    <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
-        <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="25" height="25"/>
-    </a>
-</input>
+<a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="25" height="25"/>
+</a>
+<a href="https://www.cypress.io" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="25" height="25"/>
+</a>
+<a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="25" height="25"/>
+</a>
+<a href="https://graphql.org" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="25" height="25"/>
+</a>
+<a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="25" height="25"/>
+</a>
 
 
 
