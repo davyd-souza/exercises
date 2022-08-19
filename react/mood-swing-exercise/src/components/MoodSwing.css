@@ -4,3 +4,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.MoodSwing button {
+  width: 5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border: 0px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #363636;
+  margin: 0.5rem;
+  text-transform: uppercase;
+}
+
+.MoodSwing button:hover {
+  background-color: #3AADA6;
+  cursor: pointer;
+}
