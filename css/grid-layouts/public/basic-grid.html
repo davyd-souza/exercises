@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basic grid</title>
+	<style>
+		@import url('./base.css');
+		@import url('./basic-grid.css');
+	</style>
+	<script src="https://kit.fontawesome.com/560ffac12f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<header>
+		<a href="./index.html">
+			<i class="fa-solid fa-chevron-left"></i>
+		</a>
+		<h1>Basic Grid</h1>
+	</header>
+	
+
+	<h2>Auto-fit</h2>
+	<p>
+		Calculate number of rows and columns on the fly. If there is avaiable space it will expand it's children.
+	</p>
+	<section class="basic-grid-fit">
+		<div class="card">1</div>
+		<div class="card">2</div>
+		<div class="card">3</div>
+	</section>
+
+	<h2>Auto-fill</h2>
+	<p>
+		Will create additional columns (or rows) when there is additional space.
+	</p>
+	<section class="basic-grid-fill">
+		<div class="card">1</div>
+		<div class="card">2</div>
+		<div class="card">3</div>
+	</section>
+</body>
+</html>
