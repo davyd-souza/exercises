@@ -15,10 +15,12 @@ nav {
 
 a {
 	padding: 0.5rem !important;
+	
 	font-size: 1rem !important;
 }
 
 a:hover {
 	box-shadow: rgba(108, 113, 204, 0.6) 0px 0.35em 1.175em;
+	
 	transform: translateY(-3px) scale(1.05);
 }
