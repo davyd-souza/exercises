@@ -3,7 +3,7 @@
 	gap: 1rem;
 
 	grid-auto-rows: 2.5rem;
-	grid-template-columns: 240px;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .basic-grid-fill {
