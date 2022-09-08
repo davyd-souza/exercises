@@ -1,6 +1,9 @@
 // DEPENDENCY
 import { useState } from 'react'
 
+// STYLE
+import './Color.css'
+
 // TYPE
 type ColorProps = {
 	hex: string
@@ -14,7 +17,7 @@ export const Color = ({ hex, name }: ColorProps) => {
 		backgroundColor: `${hex}`,
 	}
 
-	return <div
+	return <div 
 		className="Color" 
 		style={styles} 
 		onMouseEnter={() => setHover(true)} 

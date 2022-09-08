@@ -1,0 +1,11 @@
+.Color {
+	width: 10rem;
+	height: 10rem;
+
+	display: grid;
+	place-items: center;
+
+	text-transform: capitalize;
+
+	cursor: default;
+}
