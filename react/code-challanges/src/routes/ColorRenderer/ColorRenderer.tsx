@@ -1,6 +1,9 @@
 // COMPONENT
 import { Color } from './components/Color'
 
+// STYLE
+import './ColorRenderer.css'
+
 export default function ColorRenderer() {
 	const colors = [{
 		hex: '#91a6ff',
@@ -21,9 +24,9 @@ export default function ColorRenderer() {
 
 	return (
 		<main className="ColorRenderer">
-			<h2>Color Renderer</h2>
+			<h2 className="ColorRenderer-title">Color Renderer</h2>
 			
-			<section>
+			<section className="ColorRenderer-colors">
 				{
 					colors.map( ({hex, name }) => <Color key={hex} hex={hex} name={name} />)
 				}
