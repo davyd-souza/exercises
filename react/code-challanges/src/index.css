@@ -1,0 +1,57 @@
+:root {
+  /* Fonts */
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-accent: 'Poppins', sans-serif;
+
+  --fc-primary: var(--clr-neutral-100);
+
+  /* Background */
+  --clr-bg: #242424;
+
+  /* Colors */
+  --clr-primary-400: #fd7d96;
+  --clr-primary-200: #ffcdd2;
+  
+  --clr-accent-400: ;
+
+  --clr-neutral-900: #000;
+  --clr-neutral-100: #fff;
+
+  font-size: 16px;
+  line-height: 24px;
+
+
+  color: #ffffffde;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-family: var(--ff-primary);
+  font-size: 1.125rem;
+
+  background-color: var(--clr-bg);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
