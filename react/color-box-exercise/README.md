@@ -37,7 +37,7 @@
 <h2 id="objective">🎯 Objective </h2>
 
 <p>
-    This exercise was made in order to understand manage of child's state via parent component. After you click in a box it will change shade.</br>
+    This exercise was made in order to understand management of child's state via parent component. After you click in a box it will change shade.</br>
     <em>Constrains:</em>
     The box cannot be the same shade as it was last time you click on it.
 </p>
