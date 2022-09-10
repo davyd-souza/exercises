@@ -19,8 +19,11 @@ Note: The function accepts an integer and returns an integer
 
 
 function squareEveryDigit(nums) {
-	return +nums.toString().split('').map(num => num * num).join('')
+	return +nums							// + in front of nums is to convert back to type Number
+		.toString()							// Convert to string
+		.split('')							// nums will become an array with every single numbers	# ['9', '1', '1', '9']
+		.map(num => num * num)	// multiply the number with himself and assigning to current array index	# ['81', '1', '1', '81']
+		.join('')								// join numbers so it returns a string instead of array	# "811181"
 }
 
 console.log(squareEveryDigit(9119))
-console.log(squareEveryDigit(3212))
