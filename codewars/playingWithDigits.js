@@ -26,18 +26,11 @@ $ digPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 23606
 
 function playingWithDigits(num, pow) {
 	let sum = 0
-	let count = 1
 	let powNums = num.toString().split('')
 
 	for(let i = 0; i < powNums.length; i++) {
-		sum += Math.pow(+powNums[i], pow)
-		pow++
+		sum += Math.pow(+powNums[i], pow++)
 	}
 
-	while( num*count < sum ) {
-		count++
-	}
-
-	if( num * count !== sum) return -1
-	return count
+	return sum % num === 0 ? sum/num : -1
 }
