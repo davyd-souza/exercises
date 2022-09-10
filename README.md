@@ -46,7 +46,7 @@
         <ul>
             <li><a href="css/grid-layouts">Grid Layouts</a></li>
         </ul>
-    <li><a href="css">Codewars</a></li>
+    <li><a href="codewars">Codewars</a></li>
 </ul>
 
 
