@@ -40,11 +40,13 @@
         <ul>
             <li><a href="react/color-box-exercise">Color Boxes</a></li>
             <li><a href="react/mood-swing-exercise">Mood Swing</a></li>
+            <li><a href="react/code-challanges">Code Challanges</a></li>
         </ul>
     <li><a href="css">CSS</a></li>
         <ul>
             <li><a href="css/grid-layouts">Grid Layouts</a></li>
         </ul>
+    <li><a href="codewars">Codewars</a></li>
 </ul>
 
 
