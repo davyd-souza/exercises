@@ -12,15 +12,19 @@ $ ""
 */
 
 
-function breakCamelCase(str) {
-	if(!str.length) return ""
-	let arr = [...str]
-	for(let i = 0; i < arr.length; i++) {
-		if(arr[i] === arr[i].toUpperCase()) {
-			arr.splice(i, 0, ' ')
-			i++
-		}
-	}
+// function breakCamelCase(str) {
+// 	if(!str.length) return ""
+// 	let arr = [...str]
+// 	for(let i = 0; i < arr.length; i++) {
+// 		if(arr[i] === arr[i].toUpperCase()) {
+// 			arr.splice(i, 0, ' ')
+// 			i++
+// 		}
+// 	}
 
-	return arr.join('');
+// 	return arr.join('');
+// }
+
+function breakCamelCase(str) {
+	return str.replace(/([A-Z])/g, ' $1')
 }
