@@ -14,9 +14,7 @@
  *
  */
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -26,12 +24,14 @@ body {
 .container {
 	width: 80%;
 	margin: 0 auto;
-	background: #23424a;
-	color: white;
-	padding: 50px 0;
-  max-width: 750px;
+  max-width: 50rem;
 }
 
-.intro-content {
-  width: 50%;
+.intro {
+	background: #23424a;
+  color: white;
+  padding: 50px 0;	
+
 }
+
+.intro__content { width: 50%; }
