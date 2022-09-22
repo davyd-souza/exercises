@@ -117,6 +117,8 @@ body {
 
 
 /* Spacing */
+.padding-block-600 { padding-block: var(--size-600); }
 .padding-block-800 { padding-block: var(--size-800); }
+
 
 .padding-block-end-600 { padding-block-end: var(--size-600); }
