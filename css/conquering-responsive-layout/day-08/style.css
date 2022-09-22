@@ -31,3 +31,39 @@ body {
 	padding: 0;
 	font: inherit;
 }
+
+
+/* UTILITY CLASSES */
+/* Layout */
+.container { max-width: 44rem; }
+
+.even-columns { 
+	display: flex;
+	gap: 1rem;
+}
+
+/* Background */
+.bg-primary-600 { background-color: var(--clr-primary-400);}
+.bg-primary-400 { background-color: var(--clr-primary-400);}
+
+/* Typography */
+.fw-bold { font-weight: var(--fw-bold);}
+.fw-regular { font-weight: var(--fw-regular);}
+
+.text-center { text-align: center; }
+
+.fc-neutral-800 { color: var(--clr-neutral-800); }
+.fc-neutral-100 { color: var(--clr-neutral-100); }
+
+.fs-primary-heading { 
+	line-height: 1.1;
+	font-size: var(--fs-900);
+}
+
+.fs-secondary-heading {
+	line-height: 1.1;
+	font-size: var(--fs-700);
+}
+
+.fs-400 { font-size: var(--fs-400) ;}
+.fs-500 { font-size: var(--fs-500) ;}
