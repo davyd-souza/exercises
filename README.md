@@ -45,8 +45,6 @@
     <li><a href="css">CSS</a></li>
         <ul>
             <li><a href="css/grid-layouts">Grid Layouts</a></li>
-        </ul>
-        <ul>
             <li><a href="css/conquering-responsive-layout">Conquering Responsive Layout</a></li>
         </ul>
     <li><a href="codewars">Codewars</a></li>
