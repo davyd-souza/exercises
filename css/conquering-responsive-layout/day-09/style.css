@@ -1,0 +1,43 @@
+:root {
+	--clr-primary-200: hsl(184, 68%, 54%);
+	--clr-primary-400: hsl(184, 71%, 26%);
+	--clr-primary-600: hsl(192, 36%, 21%);
+
+	--clr-secondary-400: hsl(280, 22%, 49%);
+
+	--clr-neutral-100: hsl(0, 0%, 100%);
+	--clr-neutral-800: hsl(0, 0%, 23%);
+
+	--fw-regular: 400;
+	--fw-semi-bold: 700;
+	--fw-bold: 900;
+
+	--ff-primary: 'Roboto', sans-serif;
+
+	--fs-400: 1rem;
+	--fs-500: 1.3125rem;
+	--fs-600: 2.25rem;
+	--fs-700: 3rem;
+
+	--size-400: 1rem;
+	--size-500: 2rem;
+	--size-600: 3rem;
+	--size-700: 4rem;
+	--size-800: 5rem;
+	--size-900: 6rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: var(--ff-primary);
+}
