@@ -1,5 +1,10 @@
 <h1 align="center"><a href="https://www.codewars.com/">🔫 Codewars</a></h1>
 <p align="center">
+	<a href="https://www.codewars.com/users/davyd-souza">
+		<img src="https://www.codewars.com/users/davyd-souza/badges/large" alt="codewars profile badge">
+	</a>
+</p>
+<p align="center">
   My solution from Codewars challanges
 </p>
 <p align="center">
@@ -38,7 +43,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:davyd.eduardo.souza@hotmail.com" target="_blank" alt="Outlook badge">
-    <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
   </a>
   <a href="https://www.instagram.com/odeisouza/" target="_blank" alt="Instagram badge">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
