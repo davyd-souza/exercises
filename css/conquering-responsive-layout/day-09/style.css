@@ -45,7 +45,7 @@ body {
 img { max-width: 100%; }
 
 /* Intro */
-.intro__info { width: 55%; }
+.intro__info { width: 50%; }
 
 .intro__info h1 { margin: 0 auto; }
 
@@ -87,7 +87,7 @@ img { max-width: 100%; }
 
 .row {
 	display: flex;
-	gap: 1rem;
+	gap: 2rem;
 	justify-content: space-between;
 }
 
@@ -124,6 +124,10 @@ img { max-width: 100%; }
 }
 
 /* Spacing */
+.padding-block-400 { padding-block: var(--size-400); }
+.padding-block-600 { padding-block: var(--size-600); }
 .padding-block-800 { padding-block: var(--size-800); }
+
+.padding-inline-700 { padding-inline: var(--size-700); }
 
 .padding-block-end-600 { padding-block-end: var(--size-600); }
