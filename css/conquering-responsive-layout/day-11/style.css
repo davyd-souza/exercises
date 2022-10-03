@@ -35,9 +35,7 @@
 /* Box sizing rules */
 *,
 *::before,
-*::after {
-	box-sizing: border-box;
-}
+*::after { box-sizing: border-box; }
 
 /* Remove default margin */
 * {
@@ -61,6 +59,7 @@ body {
 
 /* Set core body defaults */
 body {
+	font-family: var(--ff-primary);
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 }
@@ -91,6 +90,31 @@ svg {
 }
 
 
+/* Intro */
+.intro__info { width: 50%; }
+.intro__info h1 { margin-inline: auto; }
+.intro__info p { opacity: .8; }
+
+.btn {
+	border: 0;
+	border-radius: 100vmax;
+
+	padding: .75em 2.1em;
+
+	background-color: var(--clr-primary-400);
+
+	cursor: pointer;
+}
+
+.btn:is(
+	:hover, :focus-within
+) { background-color: hsl(184, 58%, 47%); }
+
+.intro__img {
+	width: 35%;
+	align-self: flex-start;
+}
+
 
 /* UTILITY CLASSES */
 /* Layout */
@@ -107,6 +131,8 @@ svg {
 	gap: var(--flex-gap, 2rem);
 	justify-content: space-between;
 }
+
+.flow > *:where(:not(:first-child)) { margin-block-start: var(--flow-spacer, 1rem); }
 
 
 /* Background */
