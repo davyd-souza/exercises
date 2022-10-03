@@ -1,0 +1,31 @@
+:root {
+	/* Colors */
+	--clr-primary-200: hsl(184, 68%, 54%);
+	--clr-primary-400: hsl(184, 71%, 26%);
+	--clr-primary-600: hsl(192, 36%, 21%);
+
+	--clr-secondary-400: hsl(280, 22%, 49%);
+
+	--clr-neutral-100: hsl(0, 0%, 100%);
+	--clr-neutral-900: hsl(0, 0%, 23%);
+
+	/* Typography */
+	--fw-400: 400;
+	--fw-700: 700;
+	--fw-900: 900;
+
+	--ff-primary: 'Roboto', sans-serif;
+
+	--fs-300: 1rem;
+	--fs-400: 1.3125rem;
+	--fs-700: 2.25rem;
+	--fs-900: 3rem;
+
+	/* Spacing */
+	--size-400: 1rem;
+	--size-500: 2rem;
+	--size-600: 3rem;
+	--size-700: 4rem;
+	--size-800: 5rem;
+	--size-900: 6rem;
+}
