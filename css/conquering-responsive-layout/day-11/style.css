@@ -30,6 +30,8 @@
 	--size-900: 6rem;
 }
 
+
+/* CSS RESET */
 /* Box sizing rules */
 *,
 *::before,
@@ -87,3 +89,64 @@ svg {
 		scroll-behavior: auto !important;
 	}
 }
+
+
+
+/* UTILITY CLASSES */
+/* Layout */
+.container {
+	max-width: min(
+		var(--max-width, 80rem),
+		100% - (var(--container-padding, 4rem) * 2)
+	);
+	margin-inline: auto;
+}
+
+.flex {
+	display: flex;
+	gap: var(--flex-gap, 2rem);
+	justify-content: space-between;
+}
+
+
+/* Background */
+.bg-primary-200 { background-color: var(--clr-primary-200); }
+.bg-primary-400 { background-color: var(--clr-primary-400); }
+.bg-primary-600 { background-color: var(--clr-primary-600); }
+
+
+/* Typography */
+.fw-400 { font-weight: var(--fw-400); }
+.fw-600 { font-weight: var(--fw-600); }
+.fw-900 { font-weight: var(--fw-900); }
+
+.text-center { text-align: center; }
+
+.text-uppercase { text-transform: uppercase; }
+
+.fc-neutral-100 { color: var(--clr-neutral-100); }
+.fc-neutral-800 { color: var(--clr-neutal-800); }
+
+.fc-primary-400 { color: var(--clr-primary-400); }
+
+.fs-400 { font-size: var(--fs-400); }
+
+.fs-primary-heading {
+	line-height: 1.1;
+	font-size: var(--fs-900);
+}
+
+.fs-secondary-heading {
+	line-height: 1.1;
+	font-size: var(--fs-700);
+}
+
+
+/* Spacing */
+.padding-block-400 { padding-block: var(--size-400); }
+.padding-block-600 { padding-block: var(--size-600); }
+.padding-block-800 { padding-block: var(--size-800); }
+
+.padding-inline-700 { padding-inline: var(--size-700); }
+
+.padding-block-end-600 { padding-block-end: var(--size-600); }
