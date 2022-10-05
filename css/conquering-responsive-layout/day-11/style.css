@@ -22,6 +22,7 @@
 	--fs-900: 3rem;
 
 	/* Spacing */
+	--size-300: .75rem;
 	--size-400: 1rem;
 	--size-500: 2rem;
 	--size-600: 3rem;
@@ -90,6 +91,31 @@ svg {
 }
 
 
+/* Header */
+/* Navigation */
+.primary-nav__link {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.primary-nav__link:is(
+	:hover, :focus-within
+) { opacity: 1; }
+
+.primary-nav__link-btn {
+	padding-inline: 1em;
+	padding-block: .5em;
+
+	background-color: var(--clr-neutral-100);
+	opacity: 1;
+
+	border-radius: 100vmax;
+}
+
+.primary-nav__link-btn:is(
+	:hover, :focus-within
+) { color: hsl(184, 71%, 45%); }
+
 /* Intro */
 .intro__info { width: 50%; }
 .intro__info h1 { margin-inline: auto; }
@@ -129,8 +155,9 @@ svg {
 .flex {
 	display: flex;
 	gap: var(--flex-gap, 2rem);
-	justify-content: space-between;
 }
+
+.justify-between { justify-content: space-between; }
 
 .flow > *:where(:not(:first-child)) { margin-block-start: var(--flow-spacer, 1rem); }
 
@@ -155,6 +182,8 @@ svg {
 
 .fc-primary-400 { color: var(--clr-primary-400); }
 
+.fc-secondary-400 { color: var(--clr-secondary-400); }
+
 .fs-400 { font-size: var(--fs-400); }
 
 .fs-primary-heading {
@@ -169,6 +198,7 @@ svg {
 
 
 /* Spacing */
+.padding-block-300 { padding-block: var(--size-300); }
 .padding-block-400 { padding-block: var(--size-400); }
 .padding-block-600 { padding-block: var(--size-600); }
 .padding-block-800 { padding-block: var(--size-800); }
