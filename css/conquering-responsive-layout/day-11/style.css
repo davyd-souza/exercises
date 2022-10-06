@@ -102,7 +102,7 @@ svg {
 	:hover, :focus-within
 ) { opacity: 1; }
 
-.primary-nav__link-btn {
+.primary-nav__link--btn {
 	padding-inline: 1em;
 	padding-block: .5em;
 
@@ -112,7 +112,7 @@ svg {
 	border-radius: 100vmax;
 }
 
-.primary-nav__link-btn:is(
+.primary-nav__link--btn:is(
 	:hover, :focus-within
 ) { color: hsl(184, 71%, 45%); }
 
