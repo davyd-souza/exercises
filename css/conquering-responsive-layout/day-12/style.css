@@ -99,6 +99,8 @@ body {
 	font-family: var(--ff-primary);
 }
 
+p[data-width="wide"] { max-width: 55ch; }
+
 
 /* Main Header */
 .main-header > div {
@@ -111,7 +113,6 @@ body {
 .made > div { justify-content: space-between;}
 
 .made__info {	align-content: start; }
-.made__info > p { width: 60ch; }
 
 .made__img { align-self: start; }
 
