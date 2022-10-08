@@ -127,7 +127,7 @@ body {
 	gap: var(--grid-gap, 1rem);	
 }
 
-.flow > :where(.flow:not(:first-child)) { margin-block-start: var(--flow-spacer, 1rem); }
+.flow > *:where(:not(:first-child)) { margin-block-start: var(--flow-spacer, 1rem); }
 
 
 /* Background */
