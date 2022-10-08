@@ -109,8 +109,12 @@ p[data-width="wide"] { max-width: 55ch; }
 }
 
 
+/* Quality Design Section */
+.quality-design > .flex { justify-content: space-between; }
+
+
 /* Made Section */
-.made > div { justify-content: space-between;}
+.made > .flex { justify-content: space-between;}
 
 .made__info {	align-content: start; }
 
