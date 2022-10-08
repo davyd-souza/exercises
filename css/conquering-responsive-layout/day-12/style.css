@@ -108,6 +108,11 @@ svg {
 	gap: var(--flex-gap, 1rem);
 }
 
+.grid {
+	display: grid;
+	gap: var(--grid-gap, 1rem);	
+}
+
 .flow > :where(.flow:not(:first-child)) { margin-block-start: var(--flow-spacer, 1rem); }
 
 
@@ -144,9 +149,10 @@ svg {
 
 .uppercase { text-transform: uppercase; }
 
+.text-center { text-align: center; }
+
 .fc-primary-400 { color: var(--clr-primary-400); }
 .fc-secondary-400 { color: var(--clr-secondary-400); }
-
 
 .fc-neutral-100 { color: var(--clr-neutral-100); }
 .fc-neutral-900 { color: var(--clr-neutral-900); }
