@@ -93,6 +93,20 @@ svg {
 }
 
 
+/* GENERAL STYLING */
+body {
+	background-color: var(--clr-neutral-100);
+	font-family: var(--ff-primary);
+}
+
+
+/* Main Header */
+.main-header > div {
+	min-height: 60vh;
+	place-content: center;
+}
+
+
 /* UTILITY CLASSES */
 /* Layout */
 .container {
