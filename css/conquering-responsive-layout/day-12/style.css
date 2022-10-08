@@ -121,6 +121,13 @@ p[data-width="wide"] { max-width: 55ch; }
 .made__img { align-self: start; }
 
 
+/* Created Section */
+.created > .flex { justify-content: space-between; }
+
+.created__info { align-content: start; }
+
+.created__img { align-self: start; }
+
 /* UTILITY CLASSES */
 /* Layout */
 .container {
