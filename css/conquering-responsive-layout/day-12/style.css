@@ -134,7 +134,7 @@ svg {
 
 .fs-primary-heading {
 	line-height: 1.1;
-	font-size: var(--fs-900);
+	font-size: clamp(var(--fs-700), 10vw, var(--fs-900));
 }
 
 .fs-secondary-heading {
