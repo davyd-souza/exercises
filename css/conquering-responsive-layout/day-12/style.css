@@ -107,6 +107,15 @@ body {
 }
 
 
+/* Made Section */
+.made > div { justify-content: space-between;}
+
+.made__info {	align-content: start; }
+.made__info > p { width: 60ch; }
+
+.made__img { align-self: start; }
+
+
 /* UTILITY CLASSES */
 /* Layout */
 .container {
