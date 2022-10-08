@@ -109,24 +109,17 @@ p[data-width="wide"] { max-width: 55ch; }
 }
 
 
-/* Quality Design Section */
-.quality-design > .flex { justify-content: space-between; }
-
-
 /* Made Section */
-.made > .flex { justify-content: space-between;}
-
 .made__info {	align-content: start; }
 
 .made__img { align-self: start; }
 
 
 /* Created Section */
-.created > .flex { justify-content: space-between; }
-
 .created__info { align-content: start; }
 
 .created__img { align-self: start; }
+
 
 /* UTILITY CLASSES */
 /* Layout */
@@ -142,6 +135,8 @@ p[data-width="wide"] { max-width: 55ch; }
 	display: flex;
 	gap: var(--flex-gap, 1rem);
 }
+
+.justify-content-between { justify-content: space-between; }
 
 .grid {
 	display: grid;
