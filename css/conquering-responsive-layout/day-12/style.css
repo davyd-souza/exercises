@@ -1,0 +1,33 @@
+:root {
+	/* Colors */
+	--clr-primary-400: hsl(15, 41%, 36%);
+
+	--clr-neutral-100: hsl(0, 0%, 100%);
+	--clr-neutral-900: hsl(168, 13%, 15%);
+
+
+	/* Typography */
+	--fs-400: 1rem;
+	--fs-500: 1.125rem;
+	--fs-600: 1.5rem;
+	--fs-700: 2.5rem;
+	--fs-900: 4rem;
+
+	--ff-primary: 'Roboto', sans-serif;
+	--ff-accent: 'Playfair Display', serif;
+
+	--fw-300: 300;
+	--fw-400: 400;
+	--fw-900: 900;
+	
+
+	/* Spacing */
+	--size-200: 0.5rem;		/* 8px */
+	--size-300: 0.75rem;	/* 12px */
+	--size-400: 1rem;			/* 16px */
+	--size-500: 2rem; 		/* 32px */
+	--size-600: 3rem; 		/* 48px */
+	--size-700: 4rem; 		/* 64px */
+	--size-800: 5rem; 		/* 80px */
+	--size-900: 6rem; 		/* 96px */
+}
